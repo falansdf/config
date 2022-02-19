@@ -9,7 +9,7 @@ get_id_and_display_name_from_list=data[*].{id: id, "display-name": "display-name
 
 [DEFAULT]
 compartment-id = xxx
-
+tenancy-id = xxx
 get_id_and_display_name_from_single_result=data.{id: id, "display-name": "display-name"}
 # Retrieves a comma separated string, for example:
 #     ocid1.instance.oc1.phx.xyz....,cli_test_instance_675195,RUNNING
